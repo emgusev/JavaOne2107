@@ -1,5 +1,6 @@
 package lesson5;
 
+//POJO- Plain Old Java Object
 public class Car {
     private String color;
     private int year;
@@ -47,6 +48,10 @@ public class Car {
                 ", year=" + year +
                 ", model='" + model + '\'' +
                 '}';
+    }
+
+    public static void summaryInfo() {
+        System.out.println("Автомобиль придумал Генри Форд");
     }
 }
 
