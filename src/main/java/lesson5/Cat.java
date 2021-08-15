@@ -38,6 +38,7 @@ public class Cat {
 
     @Override
     public String toString() {
+        char c = '\"';
         return "Cat{" +
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +

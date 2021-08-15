@@ -10,6 +10,15 @@ public class Bus extends Transport {
     }
 
     public Bus() {
+        //super(); - неявно
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     @Override
